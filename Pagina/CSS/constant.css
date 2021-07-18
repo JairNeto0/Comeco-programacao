@@ -1,0 +1,37 @@
+
+:root{
+    --primary-color: #000022;
+    --white: #fff;
+    --gap: 3rem;
+    --padding: #EEEEEE;
+    --efect: chocolate;
+    --light-gray-color: #9494943d;
+}
+
+.main-img{
+    background-image: url("../CSS/imgs/ImagemF3.svg");
+    background-size: cover;
+    background-position: center center;
+    color: var(--white);
+    
+}
+
+.main-white{
+    background: var(--white);
+    color: var(--primary-color);
+}
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+
+}
+
+.section{
+    min-height: 100vh;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
